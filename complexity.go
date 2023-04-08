@@ -16,7 +16,7 @@ var getPerson = map[string]map[string]func(value string){
 		"outlook": getOutlook,
 	},
 }
-
+//
 func main() {
 
 	by := "email"
